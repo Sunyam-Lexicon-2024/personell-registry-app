@@ -29,9 +29,9 @@ namespace PersonellRegisterApp
             string pattern = @"[^a-zA-Z]";
 
             Console.WriteLine("\nplease enter the given name of the new employee:");
-            string firstName = Console.ReadLine();
+            string firstName = Console.ReadLine()!;
             Console.WriteLine("please enter the surname of the new employee:");
-            string lastName = Console.ReadLine();
+            string lastName = Console.ReadLine()!;
 
             if (firstName.Length == 0 || lastName.Length == 0)
             {

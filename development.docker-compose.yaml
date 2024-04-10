@@ -1,0 +1,13 @@
+services:
+
+  app:
+    container_name: personell-registry-manager
+    build:
+      dockerfile: Dockerfile
+      target: development
+      args:
+        - BUILDKIT_INLINE_CACHE=0
+    user: vscode
+    volumes:
+      - .:/workspace
+    command: [ "tail", "-f", "/dev/null" ]
