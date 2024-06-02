@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace PersonellRegisterApp
+namespace PersonellRegistryManager
 {
     public class Program
     {

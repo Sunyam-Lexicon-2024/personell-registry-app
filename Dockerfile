@@ -11,15 +11,11 @@ FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
 ARG TARGETARCH
 WORKDIR /source
 
-COPY Tournaments.API/*.csproj ./Tournaments.API
-COPY Tournaments.Core/*.csproj ./Tournaments.Core
-COPY Tournaments.Data/*.csproj ./Tournaments.Data
-COPY Tournaments.Test/*.csproj ./Tournaments.Test
-COPY Tournaments.sln .
+COPY *.csproj .
 RUN dotnet restore -a $TARGETARCH
 
 COPY . .
-RUN dotnet publish Tournaments.API -c Release --no-restore -a $TARGETARCH -o /app
+RUN dotnet publish -c Release --no-restore -a $TARGETARCH -o /app
 
 # Enable globalization and time zones:
 # https://github.com/dotnet/dotnet-docker/blob/main/samples/enable-globalization.md

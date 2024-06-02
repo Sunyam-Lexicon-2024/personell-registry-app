@@ -1,4 +1,4 @@
-namespace PersonellRegisterApp
+namespace PersonellRegistryManager
 {
     internal class Employee
     {

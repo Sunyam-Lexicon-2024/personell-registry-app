@@ -42,6 +42,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#assignment-document">Assignment Document</a></li>
+        <li><a href="#current-status">Current Status</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -67,7 +68,7 @@
 
 ![![Personell Registry Manager][personell-registry-manager-screenshot]](.docs/images/screenshot.png)
 
-A small app that handles registration and listing of new employees.
+A small console application that handles the registration and listing of new employees.
 <br> 
 Written to test out basic C#/.NET functionality, created as part of studies carried out at [Lexicon AB](https://lexicon.se) 2024
 
@@ -75,14 +76,20 @@ Written to test out basic C#/.NET functionality, created as part of studies carr
 
 
 
-## Assignment Document
+
+### Assignment Document
 
 [Assignment 1 PDF](.docs/pdf/assignment-1.pdf)
 
 
 <p align="right"><a href="#readme-top">🔝</a></p>
 
+### Current Status
 
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B45338%2Fgithub.com%2FSunyam-Lexicon-2024%2Fpersonell-registry-manager.svg?type=shield&issueType=license)](https://app.fossa.com/projects/custom%2B45338%2Fgithub.com%2FSunyam-Lexicon-2024%2Fpersonell-registry-manager?ref=badge_shield&issueType=license)
+[![Build](https://github.com/Sunyam-Lexicon-2024/personell-registry-manager/actions/workflows/build.yml/badge.svg)](https://github.com/Sunyam-Lexicon-2024/personell-registry-manager/actions/workflows/build.yml)
+
+<p align="right"><a href="#readme-top">🔝</a></p>
 
 ### Built With
 
@@ -97,7 +104,9 @@ Written to test out basic C#/.NET functionality, created as part of studies carr
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+The instructions below give an example on how to get the project running locally. 
+<br>
+Do note that differences do occur depending on your setup and local environment.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
